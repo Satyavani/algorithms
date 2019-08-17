@@ -40,7 +40,7 @@ public class BinarySearch {
 				 high = mid - 1; // too high
 			 }
 		 }
-		 System.out.println(" No element Found : " +expected);
+		 System.out.println(" No element found with : " +expected);
 		 return -1;
 	}
 	
@@ -52,6 +52,8 @@ public class BinarySearch {
 		System.out.println( "Found at "+binarySearch(n, 86));
 		
 		System.out.println( " not Found "+binarySearch(n, 90));
+		
+		System.out.println( " not Found "+binarySearch(n, 50));
 		
 	}
 }
